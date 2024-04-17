@@ -72,6 +72,255 @@ nav {
   font-family: "Signika", sans-serif;
 }
 
+.third-page {
+  background: #F1F4FD;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  font-family: "Signika", sans-serif;
+}
+
+.fourth-page {
+  background: #FFFFFF;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: start;
+  justify-content: start;
+  font-family: "Signika", sans-serif;
+}
+
+.content-container {
+  background: #F1F4FD;
+  height: 90%;
+  width: 100%;
+}
+
+.contact-map {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 100px 0 100px;
+  background-color: #567F58;
+  color: white;
+  width: 100%;
+}
+
+.contact-map h4 {
+  font-weight: 500;
+  font-size: 2em;
+  margin: 0;
+  letter-spacing: 4px;
+}
+
+.svg-address {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.svg-address p {
+  margin: 0;
+  margin-left: 10px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  font-size: smaller;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  object-fit: cover;
+}
+
+.watermark {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  padding: 100px 30px 0 30px;
+  height: 50%;
+  box-shadow: 0px 2px 22px 0px rgba(0,0,0,0.55);
+  -webkit-box-shadow: 0px 2px 22px 0px rgba(0,0,0,0.55);
+  -moz-box-shadow: 0px 2px 22px 0px rgba(0,0,0,0.55);
+}
+
+.link {
+  margin-top: 20px;
+}
+
+.davins-link h4 {
+  font-size: medium;
+  font-weight: 600;
+}
+
+.main-address {
+  margin-top: 20px;
+}
+
+.main-address h4 {
+  letter-spacing: 0;
+  font-size: small;
+  margin: 0;
+}
+
+.main-address h5 {
+  margin: 0;
+  font-size: small;
+  font-weight: 200;
+}
+
+.contact-us {
+  text-align: center;
+}
+
+.contact-us h4 {
+  letter-spacing: 0;
+  font-size: medium;
+  margin: 0;
+}
+
+.contact-us h5 {
+  margin: 0;
+  font-size: medium;
+  margin-top: 20px;
+  font-weight: 200;
+}
+
+.nav-footer {
+  text-align: right;
+}
+
+
+.nav-footer h4 {
+  letter-spacing: 0;
+  font-size: medium;
+  margin: 0;
+}
+
+.nav-footer h5 {
+  margin: 0;
+  font-size: medium;
+  margin-top: 20px;
+  font-weight: 200;
+}
+
+.link svg {
+  margin-right: 20px;
+}
+
+.watermark p {
+  margin: 0;
+}
+
+.footer {
+  padding: 0 30px 0 30px;
+  height: 11%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.img-container {
+  position: relative;
+  width: 345px;
+  height: 472px;
+}
+
+.img-container img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.img-list {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.img-container p {
+  position: absolute;
+  text-align: center;
+  top: 400px;
+  width: 100%;
+  color: white;
+}
+
+.slider-container {
+  max-width: 100%;
+  width: 95%;
+}
+
+.slider-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.third-page h1 {
+  margin: 0;
+}
+
+.third-page h4 {
+  font-weight: 200;
+  color: #242424;
+  font-size: medium;
+  margin-top: 20px;
+}
+
+.third-page button {
+  margin-top: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding: 4px 20px 4px 20px;
+  color: #242424;
+  background-color: white;
+  box-shadow: none;
+  font-size: small;
+  font-weight: 400;
+}
+
+.fourth-page button {
+  border: none;
+  padding: 12px 15px 12px 15px;
+  color: #FFFFFF;
+  background-color: #89C237;
+  box-shadow: none;
+  font-size: small;
+  font-weight: 400;
+  width: 50%;
+  height: 100%;
+  margin-left: 20px;
+}
+
+.phone-input {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.phone-input input {
+  width: 100%;
+  background-color: white;
+  box-shadow: none;
+  border: none;
+  padding: 12px 20px 12px 20px;
+  font-size: 0.7em;
+  font-weight: 100;
+}
+
 .image-cont {
   display: flex;
   width: 100%;
@@ -134,7 +383,7 @@ nav {
   padding: 40px;
   max-width: 35vw;
   position: absolute;
-  bottom: 12vw;
+  bottom: 10vw;
   box-shadow: 0px 2px 22px 0px rgba(0,0,0,0.55);
   -webkit-box-shadow: 0px 2px 22px 0px rgba(0,0,0,0.55);
   -moz-box-shadow: 0px 2px 22px 0px rgba(0,0,0,0.55);
@@ -170,6 +419,16 @@ nav {
   width: 60%;
   justify-content: center;
   position: relative;
+}
+
+.green-square {
+  height: 45vh;
+  width: 15vw;
+  background-color: #567F58;
+  position: absolute;
+  right: 0;
+  top: 2.5vw;
+  z-index: 0;
 }
 
 .orange-square {
