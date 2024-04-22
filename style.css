@@ -17,6 +17,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -57,7 +58,7 @@ nav {
 
 .first-page {
   background: linear-gradient(90deg, #275A53 60%, #F6F0E4 60%);
-  height: 90vh;
+  height: 100vh;
   width: 100vw;
   max-width: 100%;
   display: flex;
@@ -205,18 +206,20 @@ nav {
   text-align: right;
 }
 
-
-.nav-footer h4 {
-  letter-spacing: 0;
-  font-size: medium;
+.nav-footer a {
   margin: 0;
+  font-size: medium;
+  font-weight: 200;
+  display: block;
+  color: #242424;
+  text-align: right;
+  padding: 4px;
+  text-decoration: none;
+  transition: color .3s ease-in-out;
 }
 
-.nav-footer h5 {
-  margin: 0;
-  font-size: medium;
-  margin-top: 20px;
-  font-weight: 200;
+.nav-footer a:hover {
+  font-weight: 400;
 }
 
 .link svg {
@@ -319,6 +322,7 @@ nav {
 
 .phone-input input {
   width: 100%;
+  color: #242424;
   background-color: white;
   box-shadow: none;
   border: none;
